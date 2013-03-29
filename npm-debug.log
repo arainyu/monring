@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery-ui' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json E:\study file\grunt-test\package.json
+6 verbose read json E:\study file\grunt-test\node_modules\grunt\package.json
+7 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-concat\package.json
+8 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-jshint\package.json
+9 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-less\package.json
+10 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-nodeunit\package.json
+11 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-qunit\package.json
+12 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-uglify\package.json
+13 verbose read json E:\study file\grunt-test\node_modules\grunt-contrib-watch\package.json
+14 verbose from cache E:\study file\grunt-test\package.json
+15 verbose readDependencies using package.json deps
+16 verbose cache add [ 'jquery-ui', null ]
+17 verbose cache add name=undefined spec="jquery-ui" args=["jquery-ui",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'jquery-ui',
+18 verbose parsed url   path: 'jquery-ui',
+18 verbose parsed url   href: 'jquery-ui' }
+19 silly lockFile 54d470e0-jquery-ui jquery-ui
+20 verbose lock jquery-ui C:\Users\ayu\AppData\Roaming\npm-cache\54d470e0-jquery-ui.lock
+21 silly lockFile 54d470e0-jquery-ui jquery-ui
+22 silly lockFile 54d470e0-jquery-ui jquery-ui
+23 verbose addNamed [ 'jquery-ui', '' ]
+24 verbose addNamed [ null, '' ]
+25 silly lockFile b7077c0a-jquery-ui jquery-ui@
+26 verbose lock jquery-ui@ C:\Users\ayu\AppData\Roaming\npm-cache\b7077c0a-jquery-ui.lock
+27 silly addNameRange { name: 'jquery-ui', range: '', hasData: false }
+28 verbose url raw jquery-ui
+29 verbose url resolving [ 'https://registry.npmjs.org/', './jquery-ui' ]
+30 verbose url resolved https://registry.npmjs.org/jquery-ui
+31 info trying registry request attempt 1 at 18:10:08
+32 http GET https://registry.npmjs.org/jquery-ui
+33 http 404 https://registry.npmjs.org/jquery-ui
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+34 silly registry.get     date: 'Wed, 20 Mar 2013 10:10:12 GMT',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'cache-control': 'must-revalidate' } ]
+35 silly lockFile b7077c0a-jquery-ui jquery-ui@
+36 silly lockFile b7077c0a-jquery-ui jquery-ui@
+37 error 404 'jquery-ui' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Windows_NT 6.1.7601
+39 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery-ui"
+40 error cwd E:\study file\grunt-test
+41 error node -v v0.10.0
+42 error npm -v 1.2.14
+43 error code E404
+44 verbose exit [ 1, true ]
